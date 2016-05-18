@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="biliLiveDanmu:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/biliLiveDanmu_jar</output-path>
+    <root id="root">
+      <element id="archive" name="biliLiveDanmu.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="biliLiveDanmu" />
+      </element>
+      <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/forms_rt.jar" />
+      <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.8" />
+    </root>
+  </artifact>
+</component>
